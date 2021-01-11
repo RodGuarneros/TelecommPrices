@@ -105,14 +105,14 @@
   }
   
   .hero h1 {
-    margin-top: 200px;
-    font-size: 2rem;
+    font-size: 16pt;
+    margin-top: 50px;
     animation: title 1.2s forwards linear;
     color: greenyellow;
   }
   
   .hero p {
-    font-size: 2rem;
+    font-size: 12pt;
     opacity: 0;
     animation: subtitle 1.2s forwards linear;
     animation-delay: 1.2s;
@@ -253,7 +253,7 @@
   }
 
   .col{
-    font-size: large;
+    font-size: medium;
   }
 
   .resaltar{
