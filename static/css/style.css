@@ -105,19 +105,14 @@
   }
   
   .hero h1 {
-<<<<<<< HEAD
-    font-size: 16pt;
-    margin-top: 50px;
-=======
-    margin-top: 50px;
-    font-size: 16pt;
->>>>>>> 8e899d4fa294a59f39a52893051613a6e09cbec4
+    font-size: 50pt;
+    margin-top: 150px;
     animation: title 1.2s forwards linear;
     color: greenyellow;
   }
   
   .hero p {
-    font-size: 12pt;
+    font-size: 20pt;
     opacity: 0;
     animation: subtitle 1.2s forwards linear;
     animation-delay: 1.2s;
