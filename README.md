@@ -1,6 +1,4 @@
 
-# javascript-challenge
-Dynamic Table and Plot with Java Script
 # Telecom Prices in Mexico 2010 - 2020
 Dynamic Table with Java Script
 https://rodguarneros.github.io/TelecommPrices/
