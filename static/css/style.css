@@ -105,7 +105,7 @@
   }
   
   .hero h1 {
-    font-size: medium;
+    font-size: small;
     margin-top: 150px;
     animation: title 1.2s forwards linear;
     color: greenyellow;
