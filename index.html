@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Precios IFT</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="https://twitter.com/hashtag/LasInstitucionesImportan?src=hashtag_click">Los datos muestran que #LasInstitucionesImportan @ift.org.mx
+                <img class="glyphicon glyphicon-plus" src="static/images/ufo.svg">
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="hero text-center">
+          <h1>Los precios de los servicios de telecomunicaciones se han reducido 40%</h1>
+          <p>Índices mensuales (Febrero 2010 a Septiembre 2020, 12/2013=100 )</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+            <hr>
+              <p id = "texto">Mantener precios asequibles en los servicios de telecomunicaciones
+                constituye una meta fundamental para el <a href="http://www.ift.org.mx/">Instituto Federal de Telecomunicaciones</a>, partiendo de <a href="http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/la-defensa-de-un-regulador-autonomo-de-las-telecomunicaciones-es-la-defensa-del-interes-de-los">acciones institucionales específicas para el desarrollo del sector</a> y con el firme propósito de incrementar el bienestar de la población, lo cual incentiva el uso y adopción de estos servicios, además de que es una señal que refleja el correcto funcionamiento del proceso de competencia y libre concurrencia, al que se le puede atribuir la reducción sostenida de los precios.</p>
+            </div>
+            <hr>
+            <div class="container">
+                <button class="btn btn-default dropdown-toggle pull-right" id="go-graph" type="button" onclick="document.location='table_index.html'">Conoce los datos
+                </button>
+                </div>   
+            <div id="line-plot"></div>
+            <script src="/static/js/data.js"></script>
+            <script src="/static/js/plots.js"></script>
+
+            <hr>
+
+            <div class="col">
+              <p id = "texto">Al segundo trimestre de 2020, el <a id = "resaltar">Índice de Precios de las Telecomunicaciones</a> revela que los precios de estos servicios en su conjunto son en promedio <a id="cifras">24.8%</a> más
+                asequibles que los reportados en el mismo mes de 2014 y <a id="cifras">40%</a> menores que los experimentados en 2010; mientras que
+                el <a id="resaltar">Índice Nacional de Precios del Consumidor</a> muestra precios mayores al <a id="cifras">36%</a> para los bienes y servicios con respecto a 2014, y superiores al <a id="cifras">47%</a> con respecto al mismo mes del año 2010 (<a href="table_index.html">Conoce los datos</a>).</p>
+            </div>
+            <div class="col">
+              <p id = "texto">El Instituto ha reconocido los nuevos retos para continuar con su mandato constitucional en un entorno que ha cambiado en los últimos seis años y que representa retos para continuar con sus esfuerzos para garantizar servicios asequibles a la ciudadanía. Por ello, ha publicado recientemente su <a href="http://www.ift.org.mx/sites/default/files/contenidogeneral/transparencia/estrategia20202025.pdf">Hoja de Ruta 2021-2025</a>. </p>
+            </div>
+            <footer class="footer">
+                <span class="bottom">Elaborado por <a href="https://github.com/RodGuarneros/">@RodGuarneros</a>, basado en datos del <a href="http://www.ift.org.mx/">Instituto Federal de Telecomunicaciones</a> y el <a href="https://www.inegi.org.mx/temas/inpc/">INEGI</a>.</span>
+              </footer>
+          
+</body>
+</html>
