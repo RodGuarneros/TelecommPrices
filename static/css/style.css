@@ -105,8 +105,13 @@
   }
   
   .hero h1 {
+<<<<<<< HEAD
     font-size: 16pt;
     margin-top: 50px;
+=======
+    margin-top: 50px;
+    font-size: 16pt;
+>>>>>>> 8e899d4fa294a59f39a52893051613a6e09cbec4
     animation: title 1.2s forwards linear;
     color: greenyellow;
   }
